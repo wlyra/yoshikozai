@@ -1,0 +1,36 @@
+!  -*-f90-*-  (for Emacs)    vim:set filetype=fortran:  (for vim)
+&input
+
+I0_degree=100.
+frac_hill=0.1
+e=0.1
+
+itmax=1000000000
+itdiagnos=10000
+
+lthirdbody=T
+ldissipation=T
+lJ2_tidal=T
+lorbit_drag=T
+dt_period=1d-2
+
+x1km=20.6
+y1km=19.9
+z1km= 9.4
+x2km=15.4
+y2km=13.8
+z2km= 9.8
+
+rho_bullet=0.5                                                                                           
+mu_body = 4d10
+Qtidal1=100.
+Qtidal2=100.
+
+asun_AU=45.
+esun=0.0417249
+
+O1_hour = 15.
+O2_hour = 15.
+
+min_distance_km=30
+/
